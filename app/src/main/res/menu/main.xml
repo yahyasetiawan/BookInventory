@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.id.visionet.chatapp.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:title="search"
+        android:otherInCategory="100"
+        android:icon="@mipmap/ic_launcher"
+        app:actionViewCalss="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        />
+
+</menu>
